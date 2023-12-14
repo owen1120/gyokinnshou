@@ -1,7 +1,6 @@
 @media screen and (min-width: 0px) {
     .main-xs, .main {
       max-width: 100%;
-      padding: 1rem;
     }
     .navbar{
         position: fixed;
@@ -60,7 +59,6 @@
 @media screen and (min-width: 576px) {
     .main-sm, .main {
       width: 100%;
-      padding: 1.5rem;
     }
     .navbar{
         position: fixed;
@@ -119,10 +117,6 @@
 @media screen and (min-width: 768px) {
     .main-md, .main {
         width: 100%;
-        padding-left: 5%;
-        padding-right: 5%;
-        padding-top: 3rem;
-        padding-bottom: 3rem;
     }
     .navbar{
         position: relative;
@@ -142,10 +136,6 @@
 @media screen and (min-width: 996px) {
     .main-lg, .main {
         width: 100%;
-        padding-left: 5%;
-        padding-right: 5%;
-        padding-top: 3rem;
-        padding-bottom: 3rem;
     }
     .navbar{
         position: relative;
@@ -165,10 +155,6 @@
 @media screen and (min-width: 1440px) {
     .main-xxl, .main {
         width: 100%;
-        padding-left: 15%;
-        padding-right: 15%;
-        padding-top: 3rem;
-        padding-bottom: 3rem;
     }
     .navbar{
         height: 6rem;
@@ -231,6 +217,10 @@
 }
 
 /* image */
+.img-full{
+    width: 100%;
+    height: 100%;
+}
 .image-box-01{
     height: 3rem;
     background-image: url('../images/Horizontal\ signs.svg');
@@ -239,356 +229,11 @@
     background-position: center;
     overflow: hidden;
 }
-
-@media screen and (min-width: 0px) {
-    .image-box-02{
-        height: 100vw;
-        background-image: url('../images/A-2.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: top;
-        overflow: hidden;
-    }
-    .image-box-03{
-        height: 100vw;
-        background-image: url('../images/A-7.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        overflow: hidden;
-    }
-    .image-box-04{
-        height: 100vw;
-        margin-top: 1.5rem;
-        background-image: url('../images/A-28.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        overflow: hidden;
-    }
-    .image-box-05{
-        height: 100vw;
-        background-image: url('../images/A-23.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        overflow: hidden;
-    }
-    .image-box-06{
-        padding-top: 5%;
-        padding-bottom: 5%;
-        background-image: url('../images/A-19.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: top center;
-        overflow: hidden;
-    }
-    .image-box-06::before{
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(252 , 250, 242, 0.5);
-        background-size: cover;
-    }
-    .map-01{
-        width: 100%;
-        height: 100vw;
-        background-image: url('../images/map.jpg');
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-        overflow: hidden;
-
-        transition: opacity 0.5s ease;
-        opacity: 1;
-    }
-}
-@media screen and (min-width: 576px) {
-    .image-box-02{
-        height: 50vw;
-        background-image: url('../images/A-2.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: top;
-        overflow: hidden;
-    }
-    .image-box-03{
-        height: 50vw;
-        background-image: url('../images/A-7.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        overflow: hidden;
-    }
-    .image-box-04{
-        height: 50vw;
-        margin-top: 1.5rem;
-        background-image: url('../images/A-28.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        overflow: hidden;
-    }
-    .image-box-05{
-        height: 100vw;
-        background-image: url('../images/A-23.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        overflow: hidden;
-    }
-    .image-box-06{
-        padding-top: 25%;
-        padding-bottom: 25%;
-        background-image: url('../images/A-19.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: top center;
-        overflow: hidden;
-    }
-    .image-box-06::before{
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(252 , 250, 242, 0.5);
-        background-size: cover;
-    }
-    .image-box-06-xs{
-        display: none;
-    }
-    .map-01{
-        width: 100%;
-        height: 60vw;
-        background-image: url('../images/map.jpg');
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-        overflow: hidden;
-
-        transition: opacity 0.5s ease;
-        opacity: 1;
-    }
-}
-@media screen and (min-width: 768px) {
-    .image-box-02{
-        height: 50vw;
-        background-image: url('../images/A-2.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: top;
-        overflow: hidden;
-    }
-    .image-box-03{
-        height: 50vw;
-        background-image: url('../images/A-7.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        overflow: hidden;
-    }
-    .image-box-04{
-        height: 50vw;
-        margin-top: 1.5rem;
-        background-image: url('../images/A-28.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        overflow: hidden;
-    }
-    .image-box-05{
-        height: 100vw;
-        background-image: url('../images/A-23.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        overflow: hidden;
-    }
-    .image-box-06{
-        padding-top: 10%;
-        padding-bottom: 10%;
-        background-image: url('../images/A-19.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: top center;
-        overflow: hidden;
-    }
-    .image-box-06::before{
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(252 , 250, 242, 0.5);
-        background-size: cover;
-    }
-    .image-box-06-xs{
-        display: none;
-    }
-    .map-01{
-        width: 100%;
-        height: 40vw;
-        background-image: url('../images/map.jpg');
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-        overflow: hidden;
-
-        transition: opacity 0.5s ease;
-        opacity: 1;
-    }
-}
-@media screen and (min-width: 996px) {
-    .image-box-02{
-        height: 25vw;
-        background-image: url('../images/A-2.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: top;
-        overflow: hidden;
-    }
-    .image-box-03{
-        height: 25vw;
-        background-image: url('../images/A-7.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        overflow: hidden;
-    }
-    .image-box-04{
-        height: 25vw;
-        margin-top: 1.5rem;
-        background-image: url('../images/A-28.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        overflow: hidden;
-    }
-    .image-box-05{
-        height: 50vw;
-        background-image: url('../images/A-23.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        overflow: hidden;
-    }
-    .image-box-06{
-        padding-top: 10%;
-        padding-bottom: 10%;
-        background-image: url('../images/A-19.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: top center;
-        overflow: hidden;
-    }
-    .image-box-06::before{
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(252 , 250, 242, 0.5);
-        background-size: cover;
-    }
-    .image-box-06-xs{
-        display: none;
-    }
-    .map-01{
-        width: 100%;
-        height: 30vw;
-        background-image: url('../images/map.jpg');
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-        overflow: hidden;
-
-        transition: opacity 0.5s ease;
-        opacity: 1;
-    }
-}
-@media screen and (min-width: 1440px) {
-    .image-box-02{
-        height: 25vw;
-        background-image: url('../images/A-2.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: top;
-        overflow: hidden;
-    }
-    .image-box-03{
-        height: 25vw;
-        background-image: url('../images/A-7.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        overflow: hidden;
-    }
-    .image-box-04{
-        height: 25vw;
-        margin-top: 1.5rem;
-        background-image: url('../images/A-28.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        overflow: hidden;
-    }
-    .image-box-05{
-        height: 50vw;
-        background-image: url('../images/A-23.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        overflow: hidden;
-    }
-    .image-box-06{
-        padding-top: 10%;
-        padding-bottom: 10%;
-        background-image: url('../images/A-19.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: top center;
-        overflow: hidden;
-    }
-    .image-box-06::before{
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(252 , 250, 242, 0.5);
-        background-size: cover;
-    }
-    .image-box-06-xs{
-        display: none;
-    }
-    .map-01{
-        width: 100%;
-        height: 25vw;
-        background-image: url('../images/map.jpg');
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-        overflow: hidden;
-
-        transition: opacity 0.5s ease;
-        opacity: 1;
-    }
-    .map-01:hover{
-        opacity: 0.5;
-    }
-    .hover-text {
-        opacity: 0;
-        transition: opacity 0.5s ease;
-    }
-    .map-01:hover .hover-text{
-        opacity: 1;
-    }
+.image-box-02{
+    height: 44vw;
+    background-image: url('../images/taiwan-2634733_1280.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
 }
