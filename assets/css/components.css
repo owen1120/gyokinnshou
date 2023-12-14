@@ -9,7 +9,6 @@
         top: 0;
         width: 100%;
         height: 100%;
-        background-color: rgba(252, 250, 242, 0.9);
         z-index: 500;
         opacity: 0;
         visibility: hidden;
@@ -69,7 +68,6 @@
         top: 0;
         width: 100%;
         height: 100%;
-        background-color: rgba(252, 250, 242, 0.9);
         z-index: 500;
         opacity: 0;
         visibility: hidden;
@@ -128,7 +126,6 @@
     }
     .navbar{
         position: relative;
-        background-color: #DAC9A6;
         opacity: 1;
         visibility: visible;
     }
@@ -152,7 +149,6 @@
     }
     .navbar{
         position: relative;
-        background-color: #DAC9A6;
         opacity: 1;
         visibility: visible;
     }
@@ -175,8 +171,8 @@
         padding-bottom: 3rem;
     }
     .navbar{
+        height: 6rem;
         position: relative;
-        background-color: #DAC9A6;
         opacity: 1;
         visibility: visible;
     }
@@ -191,11 +187,54 @@
     }
 }
 
+/* icons */
+.icon-box{
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0.125rem;
+}
+.icon-01{
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/earth-fill.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+.icon-02{
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/heart-3-fill.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+.icon-03{
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/shopping-cart-2-fill.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+.icon-04{
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/user-3-fill.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+
 /* image */
 .image-box-01{
-    height: 50vw;
-    background-image: url('../images/A-12.jpg');
-    background-size: cover;
+    height: 3rem;
+    background-image: url('../images/Horizontal\ signs.svg');
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     overflow: hidden;
