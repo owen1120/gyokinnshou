@@ -3,13 +3,6 @@
       max-width: 100%;
       padding: 1rem;
     }
-    nav{
-        width: 100%;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        padding-left: 5%;
-        padding-right: 5%;
-    }
     .navbar{
         position: fixed;
         left: 0;
@@ -69,13 +62,6 @@
     .main-sm, .main {
       width: 100%;
       padding: 1.5rem;
-    }
-    nav{
-        width: 100%;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        padding-left: 5%;
-        padding-right: 5%;
     }
     .navbar{
         position: fixed;
@@ -140,13 +126,6 @@
         padding-top: 3rem;
         padding-bottom: 3rem;
     }
-    nav{
-        width: 100%;
-        padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
-        padding-left: 15%;
-        padding-right: 15%;
-    }
     .navbar{
         position: relative;
         background-color: #DAC9A6;
@@ -171,13 +150,6 @@
         padding-top: 3rem;
         padding-bottom: 3rem;
     }
-    nav{
-        width: 100%;
-        padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
-        padding-left: 15%;
-        padding-right: 15%;
-    }
     .navbar{
         position: relative;
         background-color: #DAC9A6;
@@ -201,13 +173,6 @@
         padding-right: 15%;
         padding-top: 3rem;
         padding-bottom: 3rem;
-    }
-    nav{
-        width: 100%;
-        padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
-        padding-left: 15%;
-        padding-right: 15%;
     }
     .navbar{
         position: relative;
