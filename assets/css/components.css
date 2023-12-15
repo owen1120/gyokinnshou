@@ -174,9 +174,14 @@
 }
 
 /* icons */
-.icon-box{
+.icon-box-24{
     width: 1.5rem;
     height: 1.5rem;
+    padding: 0.125rem;
+}
+.icon-box-32{
+    width: 2rem;
+    height: 2rem;
     padding: 0.125rem;
 }
 .icon-01{
@@ -215,6 +220,15 @@
     background-position: center;
     overflow: hidden;
 }
+.icon-05{
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/arrow-down-s-line.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
 
 /* image */
 .img-full{
@@ -231,7 +245,7 @@
 }
 .image-box-02{
     height: 44vw;
-    background-image: url('../images/taiwan-2634733_1280.jpg');
+    background-image: url('../images/taiwan-2634733_1280\ 拷貝.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

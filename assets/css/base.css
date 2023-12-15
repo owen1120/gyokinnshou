@@ -27,7 +27,6 @@ body{
     font-size: 1rem;
     line-height: 1.5;
     color: rgba(28, 28, 28, 0.8);
-    background-color: #FCFAF2;
 }
 a{
     color: rgba(28, 28, 28, 0.8);
@@ -1386,6 +1385,7 @@ ul{
 .pr-96{padding-right: 6rem;}
 
 /* gap */
+.g-8{gap: 0.5rem;}
 .g-24{gap: 1.5rem;}
 .g-32{gap: 2rem;}
 
@@ -1412,3 +1412,15 @@ ul{
 .bor-b-2-s-b{border-bottom: 2px solid rgba(28, 28, 28, 0.8);}
 .bor-r-2-s-b{border-right: 2px solid rgba(28, 28, 28, 0.8);}
 .bor-l-2-s-b{border-left: 2px solid rgba(28, 28, 28, 0.8);}
+
+/* button */
+.btn-primary{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: #00323F;
+    box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.25);
+}
