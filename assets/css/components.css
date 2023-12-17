@@ -250,4 +250,92 @@
     background-repeat: no-repeat;
     background-position: center;
     overflow: hidden;
+    box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.25);
+}
+.image-box-06{
+    height: 15rem;
+    background-image: url('../images/烏魚子酥.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.25);
+}
+.image-box-07{
+    height: 15rem;
+    background-image: url('../images/特上品.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.25);
+}
+.image-box-08{
+    height: 15rem;
+    background-image: url('../images/烏魚子醬.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.25);
+}
+.image-box-09{
+    height: 30rem;
+    background-image: url('../images/spain-1508339_1280\ 拷貝.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+.image-box-10{
+    height: 30rem;
+    background-image: url('../images/chef-4807317_1280\ 拷貝.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+.image-box-11{
+    height: 30rem;
+    background-image: url('../images/memory-4807333_1280\ 拷貝.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+.image-box-12{
+    height: 30rem;
+    background-image: url('../images/mullet-roe-7002689_1280\ 拷貝.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+.image-box-13{
+    height: 30rem;
+    background-image: url('../images/japanese-2358861_1280\ 拷貝.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+
+/* img-colorbox */
+.img-colorbox-01{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 50vw;
+    backdrop-filter: blur(16px);
+    background-color: rgba(180, 165, 130, 0.5);
+}
+.img-colorbox-02{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 50vw;
+    backdrop-filter: blur(16px);
+    background-color: rgba(180, 165, 130, 0.5);
 }

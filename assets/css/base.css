@@ -92,6 +92,7 @@ ul{
 .bgc-primary-01{background-color: #B4A582;}
 .bgc-primary-02{background-color: rgba(180, 165, 130, 0.5);}
 .bgc-primary-03{background-color: rgba(180, 165, 130, 0.25);}
+.bgc-primary-04{background-color: #00323F;}
 .bgc-white-01{background-color: #FFFFFF;}
 .bgc-white-02{background-color: rgba(255, 255, 255, 0.5);}
 .bgc-white-03{background-color: rgba(255, 255, 255, 0.2);}
@@ -1359,29 +1360,13 @@ ul{
 }
 
 /* Padding */
-.pt-8{padding-top: 0.5rem;}
 .pt-12{padding-top: 0.8rem;}
-.pt-16{padding-top: 1rem;}
-.pt-24{padding-top: 1.5rem;}
-.pt-48{padding-top: 3rem;}
 .pt-96{padding-top: 6rem;}
-.pb-8{padding-bottom: 0.5rem;}
 .pb-12{padding-bottom: 0.8rem;}
-.pb-16{padding-bottom: 1rem;}
-.pb-24{padding-bottom: 1.5rem;}
-.pb-48{padding-bottom: 3rem;}
 .pb-96{padding-bottom: 6rem;}
-.pl-8{padding-left: 0.5rem;}
 .pl-12{padding-left: 0.8rem;}
-.pl-16{padding-left: 1rem;}
-.pl-24{padding-left: 1.5rem;}
-.pl-48{padding-left: 3rem;}
 .pl-96{padding-left: 6rem;}
-.pr-8{padding-right: 0.5rem;}
 .pr-12{padding-right: 0.8rem;}
-.pr-16{padding-right: 1rem;}
-.pr-24{padding-right: 1.5rem;}
-.pr-48{padding-right: 3rem;}
 .pr-96{padding-right: 6rem;}
 
 /* gap */
@@ -1401,6 +1386,13 @@ ul{
 }
 .u-text-j{
     text-align: justify;
+}
+
+/* center vertically */
+.c-v{
+    display: flex;
+    align-items: center;
+    height: 100%;
 }
 
 /* border */
