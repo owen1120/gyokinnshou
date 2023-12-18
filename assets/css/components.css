@@ -252,6 +252,33 @@
     overflow: hidden;
     box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.25);
 }
+.image-box-03{
+    height: 11.25rem;
+    background-image: url('../images/fish-6795464_1280.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.25);
+}
+.image-box-04{
+    height: 11.25rem;
+    background-image: url('../images/mullet-1312726_1280.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.25);
+}
+.image-box-05{
+    height: 11.25rem;
+    background-image: url('../images/fish-984711_1280.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.25);
+}
 .image-box-06{
     height: 15rem;
     background-image: url('../images/烏魚子酥.jpg');
@@ -319,6 +346,56 @@
     background-position: center;
     overflow: hidden;
 }
+.image-box-14{
+    width: 15.625rem;
+    height: 22.5rem;
+    background-image: url('../images/chef-3844808_1280.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.25);
+}
+.image-box-15{
+    width: 15.625rem;
+    height: 22.5rem;
+    background-image: url('../images/chefs-3701719_1280.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.25);
+}
+.image-box-16{
+    width: 15.625rem;
+    height: 22.5rem;
+    background-image: url('../images/james-tahhan-8020408_1280.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.25);
+}
+.image-box-17{
+    width: 15.625rem;
+    height: 22.5rem;
+    background-image: url('../images/cooking-5397684_1280.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.25);
+}
+.image-box-18{
+    width: 15.625rem;
+    height: 22.5rem;
+    background-image: url('../images/chefs-3701718_1280.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.25);
+}
 
 /* img-colorbox */
 .img-colorbox-01{
@@ -336,6 +413,15 @@
     bottom: 0;
     left: 0;
     width: 50%;
+    backdrop-filter: blur(16px);
+    background-color: rgba(180, 165, 130, 0.5);
+}
+.img-colorbox-03{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 33.3333333%;
     backdrop-filter: blur(16px);
     background-color: rgba(180, 165, 130, 0.5);
 }
