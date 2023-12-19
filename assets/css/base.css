@@ -1369,8 +1369,19 @@ ul{
 .pr-12{padding-right: 0.8rem;}
 .pr-96{padding-right: 6rem;}
 
+/* Margin */
+.mt-12{margin-top: 0.8rem;}
+.mt-96{margin-top: 6rem;}
+.mb-12{margin-bottom: 0.8rem;}
+.mb-96{margin-bottom: 6rem;}
+.ml-12{margin-left: 0.8rem;}
+.ml-96{margin-left: 6rem;}
+.mr-12{margin-right: 0.8rem;}
+.mr-96{margin-right: 6rem;}
+
 /* gap */
 .g-8{gap: 0.5rem;}
+.g-12{gap: 0.8rem;}
 .g-24{gap: 1.5rem;}
 .g-32{gap: 2rem;}
 
@@ -1404,6 +1415,14 @@ ul{
 .bor-b-2-s{border-bottom: 2px solid rgba(0, 50, 63, 0.75);}
 .bor-r-2-s{border-right: 2px solid rgba(0, 50, 63, 0.75);}
 .bor-l-2-s{border-left: 2px solid rgba(0, 50, 63, 0.75);}
+.bor-box-1{border: 1px solid #00323F;}
+.bor-box-2{border: 2px solid #00323F;}
+
+/* height */
+.hei-1{height: 1rem;}
+.hei-1-5{height: 1.5rem;}
+.hei-2{height: 2rem;}
+.hei-2-5{height: 2.5rem;}
 
 /* button */
 .btn-primary{
