@@ -66,6 +66,7 @@
         top: 0;
         width: 100%;
         height: 100%;
+        padding: 1.5rem;
         z-index: 500;
         opacity: 0;
         visibility: hidden;
@@ -79,9 +80,10 @@
     .close-btn{
         width: 1.6rem;
         height: 1.6rem;
-        display: block;
-        margin-left: auto;
-        margin-right: 1.5rem;
+        top: 2rem;
+        right: 2rem;
+        display: inline;
+        position: absolute;
     }
     .menu-line{
         width: 2rem;
@@ -117,7 +119,6 @@
         width: 100%;
     }
     .navbar{
-        height: 5rem;
         padding-left: 1rem;
         padding-right: 1rem;
         position: relative;
@@ -126,6 +127,7 @@
     }
     .menu-toggle, .close-btn{
         display: none;
+        visibility: hidden;
     }
     .box-md{
         display: flex;
@@ -141,7 +143,6 @@
         padding-right: 1.5rem;
     }
     .navbar{
-        height: 6rem;
         padding-left: 1.5rem;
         padding-right: 1.5rem;
         position: relative;
@@ -150,6 +151,7 @@
     }
     .menu-toggle, .close-btn{
         display: none;
+        visibility: hidden;
     }
     .box-lg{
         display: flex;
@@ -163,13 +165,13 @@
         width: 100%;
     }
     .navbar{
-        height: 6rem;
         position: relative;
         opacity: 1;
         visibility: visible;
     }
     .menu-toggle, .close-btn{
         display: none;
+        visibility: hidden;
     }
     .box-xxl{
         display: flex;
@@ -538,6 +540,16 @@
     backdrop-filter: blur(16px);
     background-color: rgba(180, 165, 130, 0.5);
 }
+.img-colorbox-04{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem;
+    backdrop-filter: blur(16px);
+    background-color: rgba(180, 165, 130, 0.5);
+}
 }
 @media screen and (min-width: 576px) {
     /* icons */
@@ -894,6 +906,16 @@
     left: 0;
     right: 0;
     height: 33.3333333%;
+    backdrop-filter: blur(16px);
+    background-color: rgba(180, 165, 130, 0.5);
+}
+.img-colorbox-04{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem;
     backdrop-filter: blur(16px);
     background-color: rgba(180, 165, 130, 0.5);
 }
@@ -1255,11 +1277,14 @@
     height: 100%;
     backdrop-filter: blur(16px);
     background-color: rgba(180, 165, 130, 0.5);
-    visibility: hidden;
+    opacity: 0;
     transition: all 0.3s;
 }
 .img-colorbox-03:hover{
-    visibility: visible;
+    opacity: 1;
+}
+.img-colorbox-04{
+    display: none;
 }
 }
 @media screen and (min-width: 996px) {
@@ -1621,6 +1646,9 @@
     background-color: rgba(180, 165, 130, 0.5);
     visibility: visible;
 }
+.img-colorbox-04{
+    display: none;
+}
 }
 @media screen and (min-width: 1440px) {
     /* icons */
@@ -1980,5 +2008,8 @@
     backdrop-filter: blur(16px);
     background-color: rgba(180, 165, 130, 0.5);
     visibility: visible;
+}
+.img-colorbox-04{
+    display: none;
 }
 }
