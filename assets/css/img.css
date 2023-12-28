@@ -1107,16 +1107,19 @@
 @media screen and (min-width: 996px) {
     /* icons */
 .icon-box-24{
+    display: block;
     width: 1.5rem;
     height: 1.5rem;
     padding: 0.125rem;
 }
 .icon-box-32{
+    display: block;
     width: 2rem;
     height: 2rem;
     padding: 0.125rem;
 }
 .icon-box-60{
+    display: block;
     width: 3.75rem;
     height: 3.75rem;
     padding: 1rem;

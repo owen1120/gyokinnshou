@@ -8,32 +8,86 @@
     
 }
 @media screen and (min-width: 996px) {
-    
-}
-@media screen and (min-width: 1440px) {
-    .navbar{
+    .navbar-lg{
         padding: 1.5rem;
     }
-    .nav-ul{
+    .nav-ul-lg{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
-    .nav-icon-ul{
+    .nav-icon-ul-lg{
        display: flex;
        justify-content: end;
        align-items: center;
     }
-    .nav-icon-li{
+    .nav-icon-li-lg{
         padding-left: 1.5rem;
     }
-    .ban-ul{
+    .ban-ul-lg{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .ban-li{
+    .ban-li-lg{
+        padding-top: 3rem;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .navbar-xxl{
+        max-width: 996px;
+        padding: 1.5rem;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .nav-ul-xxl{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav-li-xxl ul{
+        width: 12.25rem;
+        padding: 1rem;
+        display: none;
+        position: absolute;
+        right: 50%;
+        transform: translate(50%,0);
+        border-radius: 0.5rem;
+    }
+    .nav-li-xxl:hover ul{
+        display: block;
+        background-color: rgba(180, 165, 130, 0.75);
+        z-index: 3;
+    }
+    .nav-li-xxl ul li{
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid rgba(0, 50, 63, 1);
+    }
+    .nav-li-xxl ul li:last-child{
+        border: none;
+    }
+    .nav-li-xxl a:hover{
+        color: #ca7a2c;
+    }
+    .nav-icon-ul-xxl{
+       display: flex;
+       justify-content: end;
+       align-items: center;
+    }
+    .nav-icon-li-xxl{
+        padding-left: 1.5rem;
+    }
+    .ban-ul-xxl{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ban-li-xxl{
         padding-top: 3rem;
     }
 }
