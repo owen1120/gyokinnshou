@@ -1,6 +1,8 @@
+/* navbar */
 .navbar{
     max-width: 996px;
-    padding: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
     margin-right: auto;
     margin-left: auto;
 }
@@ -10,7 +12,7 @@
     align-items: center;
 }
 .nav-li ul{
-    width: 12.25rem;
+    width: 8vw;
     padding: 1rem;
     display: none;
     position: absolute;
@@ -41,6 +43,13 @@
 }
 .nav-icon-li{
     padding-left: 1.5rem;
+}
+
+/* banner */
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .ban-ul{
     display: flex;
