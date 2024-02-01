@@ -61,6 +61,13 @@ ul{
     padding: 0;
 }
 
+/* helper */
+.container{
+    max-width: 996px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Colors */
 .color-primary-01{color: #00323F;}
 .color-primary-01-75{color: rgba(0, 50, 63, 0.75);}
@@ -86,10 +93,12 @@ ul{
 .bgc-white-03{background-color: rgba(255, 255, 255, 0.2);}
 
 /* header */
-.header-nav{
-    max-width: 996px;
-    margin-left: auto;
-    margin-right: auto;
+.header{
+    width: 100%;
+    background-color: rgba(180, 165, 130, 0.5);
+    border-bottom: solid 2px rgba(0, 50, 63, 0.75);
+}
+.header-container{
     padding: 0.5rem 1.5rem;
     display: flex;
     justify-content: space-between;
@@ -119,7 +128,7 @@ ul{
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0);
-    z-index: 100;
+    z-index: 15;
     display: none;
 }
 .header-ul-li{
