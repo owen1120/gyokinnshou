@@ -1,0 +1,143 @@
+@charset "utf-8";
+
+/* index helper */
+.index-title{
+    font-family: 'Roboto Serif', serif;
+    font-size: 3rem;
+    line-height: 4.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+.index-subtitle{
+    font-family: 'Roboto Serif', serif;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    font-weight: 400;
+    text-align: center;
+    color: #CA7A2C;
+    margin-top: 0.5rem;
+}
+
+/* banner */
+.index-banner{
+    width: 100%;
+    height: 40vw;
+    background-image: url(../images/taiwan-2634733_1280\ 拷貝.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.index-banner-container{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.index-banner-desc{
+    font-family: 'Roboto Serif', serif;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 3rem;
+}
+.index-banner-btn{
+    display: inline-block;
+    color: #fff;
+    font-family: 'Roboto Serif', serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    background-color: #00323f;
+    border: solid 2px #00323f;
+    padding: 0.5rem 2rem;
+    margin-top: 3rem;
+}
+.index-scroll-box{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ri-arrow-down-wide-line{
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.75);
+}
+.index-scroll{
+    color: #fff;
+    font-family: 'Roboto Serif', serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+}
+
+/* collection */
+.index-collection{
+    padding: 3rem 0;
+}
+.index-collection-img-box{
+    width: 100%;
+    margin-top: 0.5rem;
+    padding: 1.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.index-collection-imgs{
+    width: 33.3333333%;
+    aspect-ratio: 16 / 9;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.index-collection-imgs:nth-child(even){
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+.index-collection-img-1{
+    background-image: url(../images/11F74058-F3BE-44D6-9035-7524EB2BF777.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.index-collection-img-2{
+    background-image: url(../images/mullet-1312726_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.index-collection-img-3{
+    background-image: url(../images/fish-984711_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* series products */
+.index-products{
+    padding: 3rem 0;
+}
+.index-products-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.index-products-desc{
+    max-width: 66.6666666%;
+    font-family: 'Roboto Serif', serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: rgba(0, 50, 63, 0.75);
+    text-align: center
+    
+}

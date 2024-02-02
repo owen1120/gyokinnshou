@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title id="homepage">Gyokinnshou</title>
     <link rel="stylesheet" href="assets/vendor/normalize.css">
-    <link rel="stylesheet" href="assets/vendor/bootstrap-grid.css">
     <link rel="stylesheet" href="assets/css/base.css">
-    <link rel="stylesheet" href="assets/css/components.css">
+    <link rel="stylesheet" href="assets/css/index.css">
     <link rel="stylesheet" href="assets/css/fonts.css">
-    <link rel="stylesheet" href="assets/css/img.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600&family=Noto+Serif+TC:wght@400;600&family=Roboto+Serif:ital,opsz,wght@0,8..144,400;0,8..144,600;1,8..144,400;1,8..144,600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"/>
 </head>
 <body>
     <!-- header start -->
@@ -42,7 +42,7 @@
                         </li>
                         <li class="header-li">
                             <a class="products" href="./products.html">Products</a>
-                            <ul class="header-ul-box">
+                            <ul class="header-ul-box ">
                                 <li class="header-ul-li">
                                     <a href="./personal-use.html">Personal Use</a>
                                 </li>
@@ -61,10 +61,28 @@
                             <a class="supports" href="./supports.html">Supports</a>
                         </li>
                     </ul>
+                    <a href="./" class="header-close-box">
+                        <i class="ri-close-line"></i>
+                    </a>
                 </nav>
             </div>
-            <div class="header-foot"></div>
-            <div class="header-mobile"></div>
+            <div class="header-foot">
+                <div class="header-icon-earth-box">
+                    <i class="ri-earth-fill"></i>
+                </div>
+                <a href="./wishlist.html" class="header-icon-heart-box">
+                    <i class="ri-heart-3-fill"></i>
+                </a>
+                <a href="./shoppingcart.html" class="header-icon-shoppingcart-box">
+                    <i class="ri-shopping-cart-2-fill"></i>
+                </a>
+                <a href="./user-page.html" class="header-icon-user-box">
+                    <i class="ri-user-3-fill"></i>
+                </a>
+            </div>
+            <a href="" class="header-menu-box">
+                <i class="ri-menu-3-line"></i>
+            </a>
         </div>
     </header>
     <!-- header end -->
@@ -72,18 +90,55 @@
     <!-- main start -->
 
     <!-- banner -->
-    <section class="banner">
-        
+    <section class="banner index-banner">
+        <div class="container index-banner-container">
+            <h2 class="index-title index-banner-title">Mullet Roe: A Treasure Trove<br>of Flavor and Nutrition</h2>
+            <p class="index-banner-desc">Gyokinnshou is mainly mullet roe,<br>With a carefully prepared diet of mullet roe,<br>We present you the most delicious mullet roe food.</p>
+            <div class="index-banner-btns">
+                <a href="./products.html" class="index-banner-btn">Shop Now</a>
+            </div>
+            <div class="index-scroll-box">
+                <div class="index-scroll-icon">
+                    <i class="ri-arrow-down-wide-line"></i>
+                </div>
+                <p class="index-scroll">Scroll</p>
+            </div>
+        </div>
     </section>
 
     <!-- collection -->
-    <section class="collection">
-        
+    <section class="collection index-collection">
+        <div class="container index-collection-container">
+            <h2 class="index-title index-collection-title">Collection</h2>
+            <p class="index-subtitle index-collection-subtitle">pickup</p>
+            <div class="index-collection-img-box">
+                <div class="index-collection-imgs index-collection-img-1"></div>
+                <div class="index-collection-imgs index-collection-img-2"></div>
+                <div class="index-collection-imgs index-collection-img-3"></div>
+            </div>
+        </div>
     </section>
 
     <!-- series products -->
-    <section class="series-products">
-        
+    <section class="series-products index-products">
+        <div class="container index-products-container">
+            <h2 class="index-title index-products-title">Series Products</h2>
+            <p class="index-subtitle index-products-subtitle">choose what you love</p>
+            <p class="index-products-desc">Gyokinnshou brand emphasizes "everyday".
+                People naturally engage in eating behaviors in their daily life to obtain the nutrients they need in their diet. It is an instinctive act of survival.
+                The process is a bit like narrowing down all the options and returning to the old routine of eating, without relying on extra intake.</p>
+            <div class="index-products-img-box">
+                <div class="index-products-img-insidebox">
+                    <div class="index-products-imgs index-products-img-1"></div>
+                </div>
+                <div class="index-products-img-insidebox">
+                    <div class="index-products-imgs index-products-img-2"></div>
+                </div>
+                <div class="index-products-img-insidebox">
+                    <div class="index-products-imgs index-products-img-3"></div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- about us -->
