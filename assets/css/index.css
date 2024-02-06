@@ -402,3 +402,146 @@
     font-weight: 600;
     margin-top: 0.5rem;
 }
+
+/* RWD */
+@media screen and (max-width: 1440px) {
+
+    /* about us */
+    .index-aboutus-img-desc{
+        font-family: 'Roboto Serif', serif;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-weight: 400;
+        color: rgba(0, 50, 63, 0.75);
+        margin-top: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    /* helper */
+    .index-title{
+        font-family: 'Roboto Serif', serif;
+        font-size: 2.5rem;
+        line-height: 3.75rem;
+        font-weight: 600;
+        text-align: center;
+    }
+    .index-subtitle{
+        font-family: 'Roboto Serif', serif;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-weight: 600;
+        text-align: center;
+        color: #CA7A2C;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    /* banner */
+    .index-banner-desc{
+        font-family: 'Roboto Serif', serif;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 3rem;
+    }
+    .index-scroll{
+        color: #fff;
+        font-family: 'Roboto Serif', serif;
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+        font-weight: 400;
+    }
+
+    /* about us */
+    .index-aboutus-img-title{
+        font-family: 'Roboto Serif', serif;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-weight: 600;
+    }
+    .index-aboutus-img-desc{
+        font-family: 'Roboto Serif', serif;
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+        font-weight: 400;
+        color: rgba(0, 50, 63, 0.75);
+        margin-top: 1.5rem;
+    }
+
+    /* brands chefs */
+    .index-chefs-img-chefname{
+        font-family: 'Roboto Serif', serif;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-weight: 600;
+    }
+    .index-chefs-img-restaurant{
+        font-family: 'Roboto Serif', serif;
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+        font-weight: 400;
+        margin-top: 0.5rem;
+    }
+    .index-chefs-img-job{
+        font-family: 'Roboto Serif', serif;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-weight: 400;
+        margin-top: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 996px) {
+    
+    /* helper */
+    .index-title{
+        font-family: 'Roboto Serif', serif;
+        font-size: 2rem;
+        line-height: 3rem;
+        font-weight: 600;
+        text-align: center;
+    }
+    .index-subtitle{
+        font-family: 'Roboto Serif', serif;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-weight: 600;
+        text-align: center;
+        color: #CA7A2C;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    /* banner */
+    .index-banner-desc{
+        font-family: 'Roboto Serif', serif;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 1.5rem;
+    }
+    .index-scroll-box{
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ri-arrow-down-wide-line{
+        font-size: 2rem;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 0.75);
+    }
+    .index-scroll{
+        color: #fff;
+        font-family: 'Roboto Serif', serif;
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+        font-weight: 400;
+    }
+}
