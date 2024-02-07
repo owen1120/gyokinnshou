@@ -175,6 +175,15 @@ ul{
     display: block;
 }
 
+@media screen and (max-width: 764px) {
+    .header-ul{
+        font-family: 'Roboto Serif', serif;
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+        font-weight: 600;
+    }
+}
+
 /* footer */
 .footer-container{
     padding: 3rem 0;
@@ -278,6 +287,38 @@ ul{
     color: rgba(0, 50, 63, 0.75);
 }
 
+@media screen and (max-width: 996px) {
+    .footer-infor-box{
+        font-family: 'Roboto Serif', serif;
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width: 764px) {
+    .footer-box{
+        padding: 0 0.5rem;
+    }
+    .footer-title{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    .footer-logo{
+        height: 1.5rem;
+    }
+    .footer-logos{
+        padding-bottom: 0.5rem;
+    }
+    .footer-community-box{
+        padding: 1rem;
+    }
+    .footer-copyright{
+        font-size: 0.5rem;
+        line-height: 0.75rem;
+    }
+}
+
 /* icon */
 .header-close-box{
     display: none;
@@ -306,4 +347,15 @@ ul{
     color: #00323f;
     background-color: #fff;
     border: solid 2px #00323f;
+}
+
+@media screen and (max-width: 996px) {
+    .btn{
+        font-family: 'Roboto Serif', serif;
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 2rem;
+    }
 }
