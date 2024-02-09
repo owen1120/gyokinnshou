@@ -437,6 +437,19 @@ ul{
     }
 }
 
+@media screen and (max-width: 546px) {
+    .footer-body{
+        display: block;
+    }
+    .footer-box:nth-child(even){
+        margin: 0;
+    }
+    .footer-box{
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+}
+
 /* button */
 .btn{
     min-width: 16.66666666666667%;
