@@ -12,7 +12,7 @@ body{
     font-size: 1rem;
     line-height: 1.5;
     color: #00323F;
-    background-color: rgba(180, 165, 130, 0.5);
+    background-color: rgba(180, 165, 130, 0.25);
 }
 a{
     display: block;
@@ -302,7 +302,20 @@ ul{
     }
 }
 
+@media screen and (max-width: 375px) {
+    .header-head{
+        width: 50%;
+    }
+    .full-screen-nav-head-logo{
+        width: 50%;
+    }
+}
+
 /* footer */
+.footer{
+    background-color: rgba(180, 165, 130, 0.25);
+    border-top: solid #00323F 2px;
+}
 .footer-container{
     padding: 3rem 0;
 }

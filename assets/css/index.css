@@ -188,6 +188,7 @@
 }
 .index-aboutus-head{
     background-color: #00323f;
+    padding: 3rem 0;
 }
 .index-aboutus-title{
     color: #fff;
@@ -772,5 +773,14 @@
         font-size: 0.8rem;
         line-height: 1.2rem;
         font-weight: 400;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    
+    /* banner */
+    .index-banner{
+        aspect-ratio: 3 / 4;
+
     }
 }

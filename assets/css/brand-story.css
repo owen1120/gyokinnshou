@@ -1,1 +1,159 @@
 @charset "utf-8";
+
+/* banner */
+.story-banner{
+    background-image: url(../images/LINE_ALBUM_20201128烏魚子_211116_27.jpg);
+}
+
+/* story */
+.story-container{
+    padding: 3rem 0;
+}
+.story-desc{
+    max-width: 80%;
+    font-family: 'Roboto Serif', serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(0, 50, 63, 0.75);
+    margin: 0 auto;
+}
+
+/* operators */
+.story-operators-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+}
+.story-operators-img-box{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.story-operators-img-insidebox{
+    width: 33.3333333%;
+}
+.story-operators-img-insidebox:nth-child(even){
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+.story-operators-imgs{
+    aspect-ratio: 4 / 3;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.story-operators-img-1{
+    background-image: url(../images/model-2911332_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.story-operators-img-2{
+    background-image: url(../images/beautiful-2910260_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.story-operators-img-3{
+    background-image: url(../images/woman-5467838_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.story-operators-img-title{
+    font-family: 'Roboto Serif', serif;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 1rem;
+}
+.story-operators-img-subtitle{
+    font-family: 'Roboto Serif', serif;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 0.5rem;
+    color: rgba(0, 50, 63, 0.75);
+}
+.story-operators-img-desc{
+    font-family: 'Roboto Serif', serif;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    font-weight: 400;
+    color: rgba(0, 50, 63, 0.75);
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+/* brand history */
+.story-history-banner{
+    background-image: url(../images/LINE_ALBUM_20201128烏魚子_211116_20.jpg);
+}
+.story-history-container{
+    padding: 3rem 0;
+}
+.story-history-box{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: solid 1px rgba(0, 50, 63, 0.75);
+}
+.story-history-year{
+    width: fit-content;
+    font-family: 'Roboto Serif', serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    color: rgba(0, 50, 63, 0.75);
+}
+.story-history-desc{
+    width: 83.3333333;
+    margin-left: 2rem;
+    font-family: 'Roboto Serif', serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: rgba(0, 50, 63, 0.75);
+}
+.story-history-foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* company profile */
+.story-company-banner{
+    background-image: url(../images/LINE_ALBUM_20201128烏魚子_211116_16.jpg);
+}
+.story-company-container{
+    padding: 3rem 0;
+}
+.story-company-box{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0.75rem 1rem;
+}
+.story-company-title{
+    width: 30%;
+    font-family: 'Roboto Serif', serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    color: rgba(0, 50, 63, 0.75);
+}
+.story-company-desc{
+    width: 70%;
+    font-family: 'Roboto Serif', serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: rgba(0, 50, 63, 0.75);
+}
+
+/* RWD */
