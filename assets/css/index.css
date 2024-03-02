@@ -109,6 +109,9 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+.index-collection-img-mobilebox{
+    display: none;
+}
 
 /* series products */
 .index-products-container{

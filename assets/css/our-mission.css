@@ -1,1 +1,153 @@
 @charset "utf-8";
+
+/* banner */
+.mission-banner{
+    background-image: url(../images/waves-3473335_1280.jpg);
+}
+
+/* slogan */
+.mission-container{
+    padding: 3rem 0;
+    text-align: center;
+}
+.mission-slogan-title{
+    font-family: 'Roboto Serif', serif;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    font-weight: 600;
+}
+.mission-container p{
+    font-family: 'Roboto Serif', serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: rgba(0, 50, 63, 0.75);
+    margin-top: 3rem;
+}
+
+/* mission groupbox */
+.mission-banner-small{
+    width: 100%;
+    aspect-ratio: 5 / 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    mix-blend-mode: luminosity;
+}
+.mission-groupbox{
+    padding: 3rem 0;
+    display: flex;
+    gap: 1.5rem;
+}
+.mission-peragroup{
+    width: 50%;
+    padding: 0 1.5rem;
+}
+.mission-peragroup-title{
+    font-family: 'Roboto Serif', serif;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    font-weight: 600;
+}
+.mission-peragroup-desc{
+    font-family: 'Roboto Serif', serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: rgba(0, 50, 63, 0.75);
+    margin-top: 1.5rem;
+}
+.mission-imgs{
+    width: 50%;
+    padding: 0 1.5rem;
+}
+.mission-img{
+    width: 100%;
+    aspect-ratio: 5 / 3;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+    mix-blend-mode: luminosity;
+}
+
+/* mission details */
+.mission-details-img-1{
+    background-image: url(../images/LINE_ALBUM_20201128烏魚子_240302_1.jpg);
+}
+.mission-details-img-2{
+    background-image: url(../images/LINE_ALBUM_20201128烏魚子_240302_2.jpg);
+}
+
+/* mission history */
+.mission-history-banner{
+    background-image: url(../images/sunrise-1014712_1280.jpg);
+}
+.mission-history-titlebox{
+    width: 50%;
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-bottom: solid 2px rgba(0, 50, 63, 0.75);
+}
+.mission-history-title{
+    font-family: 'Roboto Serif', serif;
+    font-size: 3rem;
+    line-height: 4.5rem;
+    font-weight: 600;
+}
+.mission-history .mission-peragroup-title{
+    font-weight: 400;
+}
+.mission-history .mission-peragroup-desc{
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+}
+.mission-history-img-1{
+    background-image: url(../images/fishermen-3039591_1280.jpg);
+}
+.mission-history-img-2{
+    background-image: url(../images/morning-2550629_1280.jpg);
+}
+
+/* mission challenge */
+.mission-challenge-banner{
+    background-image: url(../images/ocean-3605547_1280.jpg);
+}
+.mission-challenge-container{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.mission-challenge-titlebox{
+    width: 50%;
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-bottom: solid 2px rgba(0, 50, 63, 0.75);
+}
+.mission-challenge-title{
+    font-family: 'Roboto Serif', serif;
+    font-size: 3rem;
+    line-height: 4.5rem;
+    font-weight: 600;
+}
+.mission-challenge .mission-peragroup-title{
+    font-weight: 400;
+}
+.mission-challenge .mission-peragroup-desc{
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+}
+.mission-challenge-img-1{
+    background-image: url(../images/freight-17666_1280.jpg);
+}
+.mission-challenge-img-2{
+    background-image: url(../images/pinwheels-3987972_1280.jpg);
+}
