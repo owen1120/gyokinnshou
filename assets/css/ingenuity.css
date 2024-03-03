@@ -1,1 +1,190 @@
 @charset "utf-8";
+
+/* banner */
+.ingenuity-banner{
+    background-image: url(../images/lake-constance-915517_1280.jpg);
+}
+
+/* ingenuity pare */
+.ingenuity-pare-container{
+    padding: 3rem 0;
+}
+.ingenuity-pare-title{
+    font-family: 'Roboto Serif', serif;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    font-weight: 600;
+}
+.ingenuity-pare-desc{
+    font-family: 'Roboto Serif', serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: rgba(0, 50, 63, 0.75);
+    margin-top: 1rem;
+}
+
+/* ingenuity menu */
+.ingenuity-menu-container{
+    padding: 3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ingenuity-menus{
+    display: inline-block;
+    font-family: 'Roboto Serif', serif;
+    font-size: 3rem;
+    line-height: 4.5rem;
+    font-weight: 600;
+}
+.ingenuity-menu{
+    margin-top: 1.5rem;
+    color: #CA7A2C;
+}
+.ingenuity-menu:first-child{
+    margin-top: 0;
+}
+.ingenuity-menu span{
+    color: #00323F;
+}
+
+/* ingenuity step */
+.ingenuity-step{
+    padding: 3rem 0;
+}
+.ingenuity-step-head{
+    position: relative;
+}
+.ingenuity-head-imgs{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    top: 3rem;
+}
+.ingenuity-head-img{
+    width: 60%;
+    aspect-ratio: 5 / 3;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.ingenuity-head-img::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(180, 165, 130, 0.25);
+}
+.ingenuity-step-head-container{
+    padding-bottom: 10rem;
+}
+.ingenuity-step-head-title{
+    font-family: 'Roboto Serif', serif;
+    font-size: 8rem;
+    line-height: 12rem;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+.ingenuity-step-head-subtitle{
+    font-family: 'Roboto Serif', serif;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    font-weight: 600;
+    color: #CA7A2C;
+    width: 25%;
+    padding-top: 2rem;
+    border-top: solid 3px rgba(0, 50, 63, 0.75);
+}
+.ingenuity-step-body{
+    padding: 3rem 0;
+}
+.ingenuity-step-body-title{
+    font-family: 'Roboto Serif', serif;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    font-weight: 600;
+}
+.ingenuity-step-desc{
+    font-family: 'Roboto Serif', serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: rgba(0, 50, 63, 0.75);
+    margin-top: 1.5rem;
+}
+.ingenuity-foot-img{
+    width: 100%;
+    aspect-ratio: 2 / 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.ingenuity-foot-img::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(180, 165, 130, 0.25);
+}
+.ingenuity-step-foot{
+    padding-bottom: 3rem;
+}
+
+/* breeding process */
+.ingenuity-head-breeding-img{
+    background-image: url(../images/paddle-wheel-4544792_1280.jpg);
+    mix-blend-mode: luminosity;
+}
+.ingenuity-foot-breeding-img{
+    background-image: url(../images/rustic-2402214_1280.jpg);
+    mix-blend-mode: luminosity;
+}
+
+/* pickling process */
+.ingenuity-head-pickling-img{
+    background-image: url(../images/salt-harvesting-3060093_1280.jpg);
+    mix-blend-mode: luminosity;
+}
+.ingenuity-foot-pickling-img{
+    background-image: url(../images/1679713816-641e661886f18.jpg);
+    mix-blend-mode: luminosity;
+}
+
+/* solar drying process */
+.ingenuity-head-solar-drying-img{
+    background-image: url(../images/LINE_ALBUM_20201128烏魚子_240304_3.jpg);
+    mix-blend-mode: luminosity;
+}
+.ingenuity-foot-solar-drying-img{
+    background-image: url(../images/LINE_ALBUM_20201128烏魚子_240304_4.jpg);
+    mix-blend-mode: luminosity;
+}
+
+/* original recipes */
+.ingenuity-head-original-recipes-img{
+    background-image: url(../images/kagyana-2955466_1280.jpg);
+    mix-blend-mode: luminosity;
+}
+.ingenuity-foot-original-recipes-img{
+    background-image: url(../images/meal-1140371_1280.jpg);
+    mix-blend-mode: luminosity;
+}
+
+/* design philosophy */
+.ingenuity-head-design-philosophy-img{
+    background-image: url(../images/startup-3267505_1280.jpg);
+    mix-blend-mode: luminosity;
+}
+.ingenuity-foot-design-philosophy-img{
+    background-image: url(../images/烏魚子大\ -\ 複製.jpg);
+    mix-blend-mode: luminosity;
+}
