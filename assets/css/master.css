@@ -66,3 +66,193 @@
     font-style: italic;
     text-align: center;
 }
+
+/* overview list */
+.master-overview-head{
+    padding: 3rem 0;
+    border-bottom: solid 2px rgba(0, 50, 63, 0.75);
+}
+.master-overview-head .master-subtitle{
+    margin-top: 0.5rem;
+}
+.master-overview-container{
+    display: flex;
+    gap: 3rem;
+    padding: 3rem 0;
+}
+.master-overview-aside{
+    width: 25%;
+}
+.master-overview-aside-title{
+    font-family: 'Roboto Serif', serif;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+    border-bottom: solid 2px rgba(0, 50, 63, 0.75);
+    box-sizing: border-box;
+}
+.master-overview-filter-link{
+    font-family: 'Roboto Serif', serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    text-decoration: underline;
+    margin-top: 1rem;
+}
+.master-overview-cards{
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+.master-overview-foot{
+    width: 100%;
+}
+.master-overview-foot-img{
+    width: 100%;
+    aspect-ratio: 5 / 1;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.master-overview-foot-img::after{
+    content: "";
+    background-color: rgba(180, 165, 130, 0.25);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/* product cards */
+.master-product-card{
+    width: 100%;
+    background-color: rgba(180, 165, 130, 0.25);
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.master-product-card-img{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.master-product-card-detail{
+    padding: 0.5rem 1rem;
+}
+.master-product-card-title{
+    height: 3rem;
+    font-family: 'Roboto Serif', serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    overflow: hidden;
+}
+.master-product-card-desc{
+    width: 100%;
+    height: 3.6rem;
+    font-family: 'Roboto Serif', serif;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 0.5rem;
+}
+.master-product-card-readmore{
+    font-family: 'Roboto Serif', serif;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    font-weight: 600;
+    text-align: end;
+    text-decoration: underline;
+}
+.master-product-card-costIcon{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: 0.5rem;
+}
+.master-product-card-costIcon-cost{
+    font-family: 'Roboto Serif', serif;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    font-weight: 600;
+}
+.master-product-card-costIcon-icons{
+    font-size: 1.5rem;
+}
+.master-product-card-costIcon-icons:hover{
+    text-decoration: none;
+}
+.master-product-card-favIcons{
+    font-size: 1.5rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+.ri-heart-3-fill-overview{
+    display: none;
+}
+.master-product-card-favIcons:hover{
+    text-decoration: none;
+}
+.master-product-card-favIcons:hover .ri-heart-3-line{
+    display: none;
+}
+.master-product-card-favIcons:hover .ri-heart-3-fill{
+    display: inline-block;
+}
+
+/* recipe card */
+.master-recipe-card{
+    width: 100%;
+    background-color: rgba(180, 165, 130, 0.25);
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.master-recipe-card-img{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.master-recipe-card-detail{
+    padding: 0.5rem 1rem;
+}
+.master-recipe-card-title{
+    font-family: 'Roboto Serif', serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    width: 100%;
+    height: 1.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.master-recipe-card-desc{
+    width: 100%;
+    font-family: 'Roboto Serif', serif;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 0.5rem;
+}
+.master-recipe-card-desc:last-child{
+    margin-bottom: 0;
+}
+.master-recipe-card-favIcons{
+    font-size: 1.5rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+.master-recipe-card-favIcons:hover .ri-heart-3-line{
+    display: none;
+}
+.master-recipe-card-favIcons:hover .ri-heart-3-fill{
+    display: inline-block;
+}

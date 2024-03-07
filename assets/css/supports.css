@@ -1,1 +1,126 @@
 @charset "utf-8";
+
+/* aside */
+.supports-aside-searchbox{
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+.supports-aside-searchword{
+    height: 2.5rem;
+    font-family: 'Roboto Serif', serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: rgba(0, 50, 63, 0.25);
+    background-color: rgba(180, 165, 130, 0);
+    border: none;
+    border-bottom: solid 2px #00323F;
+    box-sizing: border-box;
+}
+.supports-aside-searchbtn{
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    color: #00323F;
+    background-color: rgba(180, 165, 130, 0);
+    border: none;
+    border-bottom: solid 2px #00323F;
+}
+.supports-aside-searchbtn:hover{
+    color: #CA7A2C;
+}
+
+/* supports list */
+.supports-li{
+    padding: 0.5rem 1rem;
+    border-bottom: solid 2px rgba(0, 50, 63, 0.25);
+    box-sizing: border-box;
+}
+.supports-li:first-child{
+    border-top: solid 2px rgba(0, 50, 63, 0.25);
+}
+.supports-li-title{
+    font-family: 'Roboto Serif', serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+}
+.supports-li-desc{
+    font-family: 'Roboto Serif', serif;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    font-weight: 400;
+    color: rgba(0, 50, 63, 0.25);
+    display: none;
+}
+
+/* contact form */
+.supports-contact{
+    padding: 3rem 0;
+    color: #fff;
+    background-color: #00323F;
+}
+.supports-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.supports-contact-title{
+    width: 80%;
+    font-family: 'Roboto Serif', serif;
+    font-size: 3rem;
+    line-height: 4.5rem;
+    font-weight: 600;
+    text-align: center;
+    border-bottom: solid 2px #fff;
+    padding-bottom: 1.5rem;
+}
+.support-contact-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.supports-contact-form-field{
+    display: flex;
+    width: 50%;
+}
+.supports-contact-form-field-name{
+    display: flex;
+}
+.supports-contact-form-field input, .supports-contact-form-field textarea{
+    width: 100%;
+    font-family: 'Roboto Serif', serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.25);
+    background-color: rgba(0, 50, 63, 0);
+    border: solid 1px #fff;
+    padding: 0.5rem 1rem;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    box-sizing: border-box;
+}
+.supports-contact-form-field button{
+    width: 30%;
+    font-family: 'Roboto Serif', serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    border: solid 1px #fff;
+    background-color: rgba(0, 50, 63, 0);
+    margin-top: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5rem 1rem;
+}
+
+/* main foot */
+.supports-main-foot-img{
+    background-image: url(../images/sea-bass-5500798_1280\ 拷貝.jpg);
+    mix-blend-mode: luminosity;
+}

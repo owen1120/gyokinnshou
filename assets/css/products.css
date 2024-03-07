@@ -1,1 +1,10 @@
 @charset "utf-8";
+
+/* img */
+.products-card-img-1{}
+
+/* main foot */
+.products-main-foot-img{
+    background-image: url(../images/LINE_ALBUM_20201128烏魚子_240304_4.jpg);
+    mix-blend-mode: luminosity;
+}

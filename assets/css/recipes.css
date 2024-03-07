@@ -1,1 +1,16 @@
 @charset "utf-8";
+
+/* filter */
+.recipes-filter-link{
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* img */
+.recipes-card-img-1{}
+
+/* main foot */
+.recipes-main-foot-img{
+    background-image: url(../images/kagyana-2955466_1280.jpg);
+    mix-blend-mode: luminosity;
+}
